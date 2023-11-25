@@ -1,5 +1,6 @@
 import React from 'react';
 import "../App.css";
+import location from "../assets/location.png"
 import mobile from "../assets/mobilePreview.png";
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
       <p className="mt-8 text-3xl ">Best Digital Marketing Services In India From Top Rated Digital Marketing Experts</p>
       <p className='mt-8 text-2xl '>A Well-Known Digital Marketing Company in India focused on Client Business Growth Only. Our digital marketing experts are offering Digital Marketing Solutions for businesses for more than 10 Years.</p>
       <div>
-        <img src=""/>
+        <img src={location}/>
       </div>
       </div>
 
